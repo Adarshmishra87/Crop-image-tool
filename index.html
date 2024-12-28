@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Snipping Tool</title>
+    <link rel="stylesheet" href="style.css">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Photo Snipping Tool</h1>
+        <input type="file" id="upload" accept="image/*">
+        <br><br>
+        <canvas id="canvas"></canvas>
+        <br><br>
+        <button id="download">Download Cropped Image</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
