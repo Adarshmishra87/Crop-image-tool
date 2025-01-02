@@ -1,5 +1,3 @@
-Got it! Here's the updated **README.md** without the license section:
-
 ---
 
 # ✂️ Crop Image Tool
